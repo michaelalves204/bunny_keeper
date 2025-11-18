@@ -1,0 +1,17 @@
+build
+build:checksum
+bunny_keeper_init
+clean
+clobber
+default
+install
+install:local
+release[remote]
+release:guard_clean
+release:rubygem_push
+release:source_control_push[remote]
+rubocop
+rubocop:auto_correct
+rubocop:autocorrect
+rubocop:autocorrect_all
+spec
