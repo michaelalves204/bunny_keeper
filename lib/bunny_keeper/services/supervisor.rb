@@ -34,7 +34,7 @@ module Services
     def close_process
       Services::Notification.new(config_serializer, contexts, @restarts).call
 
-      logger_service.info("[Close process] restarts #{@restarts} of #{max_restarts}")
+      logger_service.info("[Close process] restarts #{@restarts}")
 
       exit
     end

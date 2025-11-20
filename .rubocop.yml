@@ -9,3 +9,9 @@ Style/StringLiteralsInInterpolation:
 
 Style/MutableConstant:
   Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
